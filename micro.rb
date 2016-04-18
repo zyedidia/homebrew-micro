@@ -8,7 +8,6 @@ class Micro < Formula
     end
 
     def install
-        system "./install.sh"
-        bin.install Dir["bin/micro"]
+        bin.install Dir["micro"]
     end
 end
