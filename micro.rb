@@ -4,7 +4,7 @@ class Micro < Formula
 
     devel do
         url "http://zbyedidia.webfactional.com/micro/binaries/micro-osx.tar.gz"
-        sha256 "00d1c8ce11d9992a138b59d2f8aa6c9f13c396d7db8244970997b5f89e3ff904"
+        sha256 "616ea85d02abdda50cbfd198b20a9d2790984f10a52b11709f5fdf186822fc72"
     end
 
     def install
