@@ -3,8 +3,12 @@ class Micro < Formula
     homepage "https://github.com/zyedidia/micro"
 
     devel do
+        def self.sha256_checksum
+            `curl --silent 'http://zbyedidia.webfactional.com/micro/binaries/micro-osx.tar.gz.sha256'`.split.first
+        end
+
         url "http://zbyedidia.webfactional.com/micro/binaries/micro-osx.tar.gz"
-        sha256 "616ea85d02abdda50cbfd198b20a9d2790984f10a52b11709f5fdf186822fc72"
+        sha256 sha256_checksum
     end
 
     def install
