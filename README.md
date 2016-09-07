@@ -7,9 +7,9 @@ brew tap zyedidia/micro
 brew install micro
 ```
 
-You can also install the nightly version of micro using `--devel`. Just make sure you remove cached versions brew has or there will be a problem with the checksum.
+You can also install the master version of micro using `--HEAD`.
 
 ```
 brew tap zyedidia/micro
-brew install --devel micro
+brew install --HEAD micro
 ```
