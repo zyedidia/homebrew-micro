@@ -1,6 +1,20 @@
 # Homebrew micro
 
-This is the Homebrew formula for [micro](https://github.com/zyedidia/micro).
+Micro is now an official Homebrew formula, so please use that instead:
+
+```
+brew install micro
+```
+
+or 
+
+```
+brew install --HEAD micro
+```
+
+---
+
+This is the Homebrew tap for [micro](https://github.com/zyedidia/micro).
 
 ```
 brew tap zyedidia/micro
